@@ -1,0 +1,486 @@
+* {
+
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+.banner {
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 500px;
+}
+
+.banner img {
+    width: 100%;
+    height: 100%;
+}
+
+.banner {
+    position: relative;
+}
+
+.shiju {
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    height: 639px;
+    width: 50px;
+    /* border: 1px solid red; */
+    font-family: "STXingkai", "KaiTi", "SimSun", serif;
+    /* 使用书法字体 */
+    font-size: 50px;
+    line-height: 2;
+    letter-spacing: 2px;
+    background: linear-gradient(to right, #d3d836, #e05e27);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    text-shadow: 1px 1px 2px rgba(139, 90, 43, 0.2);
+    padding: 10px 0;
+    border-bottom: 1px dashed #d1b38a
+}
+.shiju2{
+    position: absolute;
+    top: 100px;
+    right: 200px;
+    height: 589px;
+    width: 50px;
+    /* border: 1px solid red; */
+    font-family: "STXingkai", "KaiTi", "SimSun", serif;
+    /* 使用书法字体 */
+    font-size: 40px;
+    line-height: 2;
+    letter-spacing: 2px;
+    background: linear-gradient(to right, #e05e27, #d3d836);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    text-shadow: 1px 1px 2px rgba(139, 90, 43, 0.2);
+    padding: 10px 0;
+    border-bottom: 1px dashed #d1b38a
+}
+.shiju3{
+    position: absolute;
+    top: 150px;
+    right: 350px;
+    height: 500px;
+    width: 50px;
+    /* border: 1px solid red; */
+    font-family: "STXingkai", "KaiTi", "SimSun", serif;
+    /* 使用书法字体 */
+    font-size: 45px;
+    line-height: 2;
+    letter-spacing: 2px;
+    background: linear-gradient(to right, #d3d836, #e05e27);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    text-shadow: 1px 1px 2px rgba(139, 90, 43, 0.2);
+    padding: 10px 0;
+    border-bottom: 1px dashed #d1b38a
+}
+
+.shiju4 {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    height: 1200px;
+    width: 45px;
+    /* border: 1px solid red; */
+    font-family: "STXingkai", "KaiTi", "SimSun", serif;
+    /* 使用书法字体 */
+    font-size: 50px;
+    line-height: 2;
+    letter-spacing: 2px;
+    background: linear-gradient(to right,#e05e37, #d7da22 );
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    text-shadow: 1px 1px 2px rgba(139, 90, 43, 0.2);
+    padding: 10px 0;
+    border-bottom: 1px dashed #d1b38a
+}
+.shiju5{
+    position: absolute;
+    top: 70px;
+    right: 500px;
+    height: 589px;
+    width: 50px;
+    /* border: 1px solid red; */
+    font-family: "宋体", serif;
+    /* 使用书法字体 */
+    font-size: 40px;
+    line-height: 2;
+    letter-spacing: 2px;
+    background: linear-gradient(to right,#e05e47, #d3d856 );
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    text-shadow: 1px 1px 2px rgba(139, 90, 43, 0.2);
+    padding: 10px 0;
+    border-bottom: 1px dashed #d1b38a
+}
+
+.main1 {
+    width: 100%;
+    height: 700px;
+    /* border: 1px solid red; */
+    background-image: url(/images/index/cunse.jpg);
+    background-size: 100% 100%;
+}
+
+.main1 .title {
+    width: auto;
+    height: 50px;
+    /* border: 1px solid blue; */
+    text-align: center;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 50px;
+
+}
+
+.main1 .container {
+    width: 100%;
+    height: 550px;
+    /* border: 1px solid blue; */
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding-left: 100px;
+    padding-top: 25px;
+    /* border-top: 2px solid rgb(222, 190, 30); */
+
+
+}
+
+.main1 .photo {
+    width: 400px;
+    height: 500px;
+    /* border: 1px solid red; */
+
+}
+
+.photo img {
+    width: 100%;
+    height: 100%;
+}
+
+.main1 .text {
+    width: 1100px;
+    height: 500px;
+    /* border: 1px solid red; */
+    letter-spacing: 5px;
+}
+
+.main1 .text div {
+    width: 100%;
+    height: 25px;
+    font-size: 20px;
+    line-height: 25px;
+    /* border: 1px solid blue; */
+    font-family: "宋体", serif;
+    background: url('旧宣纸纹理.jpg') no-repeat;
+    background-size: cover;
+    color: #5a3921;
+    /* 深褐色文字 */
+
+    /* border: 1px solid #d4b483;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); */
+}
+
+.main2 {
+    width: 100%;
+    height: 700px;
+    /* border: 1px solid red; */
+    background-image: url(/images/index/cunse.jpg);
+    background-size: 100% 100%;
+}
+
+.main2 .title {
+    width: auto;
+    height: 50px;
+    /* border: 1px solid blue; */
+    text-align: center;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 50px;
+
+}
+
+.main2 .container {
+    width: 100%;
+    height: 550px;
+    /* border: 1px solid blue; */
+    margin-top: 25px;
+    /* display: flex;
+    justify-content: space-between;
+    align-content: center; */
+    padding-top: 25px;
+    /* border-top: 2px solid rgb(222, 190, 30); */
+    /* background-color: blue; */
+    background-image: url(/images/index/beijing3.jpg);
+    background-size: 100% 100%;
+
+
+}
+
+.main2 .lunbo {
+    width: 1500px;
+    height: 500px;
+    margin: 0 auto;
+    /* border: 1px solid red; */
+
+}
+
+.main2 .swiper-container {
+    width: 100%;
+    height: 500px;
+    margin: 20px auto;
+
+
+}
+
+.main2 .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    /* background: #fff; */
+    width: 60%;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.main2 .swiper-slide:nth-child(2n) {
+    width: 40%;
+}
+
+.main2 .swiper-slide:nth-child(3n) {
+    width: 20%;
+}
+
+
+.main3 {
+    width: 100%;
+    height: 900px;
+    /* border: 1px solid red; */
+    background-image: url(/images/index/cunse.jpg);
+    background-size: 100% 100%;
+
+}
+
+.main3 .title {
+    width: auto;
+    height: 50px;
+    /* border: 1px solid blue; */
+    text-align: center;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 50px;
+
+}
+
+
+
+.main3 .container {
+    width: 100%;
+    height: 780px;
+    /* border: 1px solid blue; */
+    margin-top: 25px;
+    /* display: flex;
+    justify-content: space-between;
+    align-content: center; */
+    /* padding-left: 100px; */
+    padding-top: 25px;
+    /* border-top: 2px solid rgb(222, 190, 30); */
+
+
+}
+
+.bofang-wrapper {
+    width: 1500px;
+    height: 750px;
+    margin: 0 auto;
+    /* border: 1px solid red; */
+}
+
+.bofang-wrapper video {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide img {
+    width: 100%;
+    height: 100%;
+}
+
+.main4 {
+    width: 100%;
+    height: 900px;
+    /* border: 1px solid red; */
+    background-image: url(/images/index/cunse.jpg);
+    background-size: 100% 100%;
+}
+
+.main4 .title {
+    width: auto;
+    height: 50px;
+    /* border: 1px solid blue; */
+    text-align: center;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 50px;
+
+}
+
+.main4 .container {
+    width: 100%;
+    height: 780px;
+    /* border: 1px solid blue; */
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    /* padding-left: 100px; */
+    padding-top: 25px;
+    /* border-top: 2px solid rgb(222, 190, 30); */
+}
+
+.main4 .role {
+    width: 700px;
+    height: 700px;
+    margin: 0 auto;
+    /* background-color: yellow; */
+}
+
+.main4 .role img {
+    width: 100%;
+    height: 100%;
+}
+
+.main4 .text {
+    width: 900px;
+    height: 700px;
+    /* background-color: blue; */
+    font-family: "宋体", serif;
+    background: url('旧宣纸纹理.jpg') no-repeat;
+    background-size: cover;
+    color: #5a3921;
+    /* 深褐色文字 */
+
+
+}
+
+.main4 .text div {
+    margin-bottom: 20px;
+    width: 100%;
+    height: 50px;
+    font-size: 20px;
+    line-height: 25px;
+    /* border: 1px solid rgb(21, 198, 77); */
+    border: 1px solid #d4b483;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.main5 {
+    width: 100%;
+    height: 500px;
+    border: 1px solid red;
+    background-image: url(/images/index/cunse.jpg);
+    background-size: 100% 100%;
+}
+
+.main5 .title {
+    width: auto;
+    height: 60px;
+    /* border: 1px solid blue; */
+    text-align: center;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 60px;
+    margin-bottom: 25px;
+
+}
+
+.main5 .text {
+    width: 100%;
+    height: 25px;
+    text-align: center;
+    font-size: 15px;
+    line-height: 25px;
+    /* border: 1px solid blue; */
+    font-family: "宋体", serif;
+    background: url('旧宣纸纹理.jpg') no-repeat;
+    background-size: cover;
+    color: #5a3921;
+    /* 深褐色文字 */
+
+
+
+}
+
+.main5 .biaoge {
+    width: 1410px;
+    height: 200px;
+    margin: 0 auto;
+    margin-top: 50px;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+
+}
+
+.biaoge div {
+    width: 200px;
+    height: 100px;
+    border: 2px solid black;
+    line-height: 100px;
+    text-align: center;
+    font-family: "宋体", serif;
+    background: url('旧宣纸纹理.jpg') no-repeat;
+    background-size: cover;
+    color: #5a3921;
+    /* 深褐色文字 */
+    border: 1px solid #d4b483;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.main5 .jiazhong {
+    font-weight: 800;
+    font-size: 20px;
+    font-family: "宋体", serif;
+    background: url('旧宣纸纹理.jpg') no-repeat;
+    background-size: cover;
+    color: #5a3921;
+    /* 深褐色文字 */
+    border: 1px solid #d4b483;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.title {
+    /* font-family: "宋体", serif; */
+    background: url('旧宣纸纹理.jpg') no-repeat;
+    background-size: cover;
+    color: #5a3921;
+
+
+    border: 1px solid #d4b483;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    font-family: "STXingkai", "KaiTi", cursive;
+
+}
