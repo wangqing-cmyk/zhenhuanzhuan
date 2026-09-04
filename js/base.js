@@ -1,0 +1,9 @@
+//加载公共头部
+$.get("/pages/header.html",function(data){
+    $(".header").html(data);
+})
+//加载公共底部
+$.get("/pages/footer.html",function(data){
+    //console.log(data)
+    $(".footer").html(data)
+})
