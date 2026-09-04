@@ -1,0 +1,586 @@
+.banner {
+    height: 600px;
+    width: 100%;
+    background-color: pink;
+}
+
+.banner .container {
+    height: 600px;
+    width: 100%;
+    background-image: url(/images/introduce/beijing1.jpg);
+    margin: 0 auto;
+}
+.banner .title{
+    height: 150px;
+    width: 800px;
+    /* background-color: rgb(219, 210, 210); */
+    margin:0 auto;
+    padding-top: 40px;
+    text-align: center;
+    font-size: 100px;
+    letter-spacing: 100px;
+    font-weight: bolder;
+    color: rgb(182, 11, 11);
+}
+/* 第二部分 */
+.main {
+    height: 1310px;
+    width: 100%;
+    background-image: url(/images/introduce/beijing3.jpg);
+    margin: 0 auto;
+}
+
+.main .container {
+    height: 1310px;
+    width: 1000px;
+    background-color: rgb(242, 225, 173);
+    margin: 0 auto;
+}
+
+
+/* 人物介绍背景 1*/
+.main .item1 {
+    height: 200px;
+    width: 100%;
+    background-image: url(/images/introduce/beijing2.jpg);
+    margin-top: 15px;
+    display: flex;
+}
+
+.itme1 .img {
+    height: 200px;
+    width: 200px;
+    border: 2px solid red;
+    position: absolute;
+}
+
+.item1 .img img {
+    height: 100%;
+    width: 100%;
+}
+
+.item1 .text {
+    height: 200px;
+    width: 900px;
+    border: 2px solid blue;
+}
+/* 视频播放容器 */
+.item1 .start-btn {
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    /* background-color: blanchedalmond; */
+    margin: auto;
+    margin-top: -130px;
+    /* position: relative; */
+}
+
+.item1 .start-btn img {
+    width: 100%;
+    height: 100%;
+}
+
+.item1 .video-wrapper {
+    width: 1200px;
+    height: 600px;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+    margin-left: 150px;
+    margin-top: 100px;
+}
+
+.item1 .inner-wrapper {
+    width: 1000px;
+    height: 500px;
+    border: 1px solid red;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+.inner-wrapper video {
+    height: 100%;
+    width: 100%;
+}
+
+.item1 .close-btn {
+    width: 70px;
+    height: 70px;
+    /* border: 5px solid blue; */
+    position: absolute;
+    right: 15px;
+    top: 3px;
+}
+
+.item1 .close-btn img {
+    height: 70px;
+    width: 70px;
+}
+
+/* 人物介绍背景 2*/
+.main .item2 {
+    height: 200px;
+    width: 100%;
+    background-image: url(/images/introduce/beijing2.jpg);
+    margin-top: 15px;
+    display: flex;
+}
+
+.item2 .text {
+    height: 200px;
+    width: 900px;
+    border: 2px solid blue;
+}
+.itme2 .img {
+    height: 200px;
+    width: 200px;
+    border: 2px solid red;
+    /* position: absolute; */
+}
+
+.item2 .img img {
+    height: 100%;
+    width: 100%;
+}
+
+/* 视频播放容器 */
+.item2 .start-btn {
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    /* background-color: blanchedalmond; */
+    margin: auto;
+    margin-top: -136px;
+    /* position: relative; */
+}
+
+.item2 .start-btn img {
+    width: 100%;
+    height: 100%;
+}
+
+.item2 .video-wrapper {
+    width: 1200px;
+    height: 600px;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+    margin-left: 150px;
+    margin-top: 100px;
+}
+
+.item2 .inner-wrapper {
+    width: 1000px;
+    height: 500px;
+    border: 1px solid red;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+.inner-wrapper video {
+    height: 100%;
+    width: 100%;
+}
+
+.item2 .close-btn {
+    width: 70px;
+    height: 70px;
+    /* border: 5px solid blue; */
+    position: absolute;
+    right: 15px;
+    top: 3px;
+}
+
+.item2 .close-btn img {
+    height: 70px;
+    width: 70px;
+}
+/* 人物介绍背景 3*/
+.main .item3 {
+    height: 200px;
+    width: 100%;
+    background-image: url(/images/introduce/beijing2.jpg);
+    margin-top: 15px;
+    display: flex;
+}
+
+.itme3 .img {
+    height: 200px;
+    width: 200px;
+    border: 2px solid red;
+    position: absolute;
+}
+
+.item3 .img img {
+    height: 100%;
+    width: 100%;
+}
+
+.item3 .text {
+    height: 200px;
+    width: 900px;
+    border: 2px solid blue;
+}
+
+/* 视频播放容器 */
+.item3 .start-btn {
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    /* background-color: blanchedalmond; */
+    margin: auto;
+    margin-top: -130px;
+    /* position: relative; */
+}
+
+.item3 .start-btn img {
+    width: 100%;
+    height: 100%;
+}
+
+.item3 .video-wrapper {
+    width: 1200px;
+    height: 600px;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+    margin-left: 150px;
+    margin-top: 100px;
+}
+
+.item3 .inner-wrapper {
+    width: 1000px;
+    height: 500px;
+    border: 1px solid red;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+.inner-wrapper video {
+    height: 100%;
+    width: 100%;
+}
+
+.item3 .close-btn {
+    width: 70px;
+    height: 70px;
+    /* border: 5px solid blue; */
+    position: absolute;
+    right: 15px;
+    top: 3px;
+}
+
+.item3 .close-btn img {
+    height: 70px;
+    width: 70px;
+}
+/* 人物介绍背景 4*/
+.main .item4 {
+    height: 200px;
+    width: 100%;
+    background-image: url(/images/introduce/beijing2.jpg);
+    margin-top: 15px;
+    display: flex;
+}
+
+.item4 .text {
+    height: 200px;
+    width: 900px;
+    border: 2px solid blue;
+}
+.itme4 .img {
+    height: 200px;
+    width: 200px;
+    border: 2px solid red;
+    /* position: absolute; */
+}
+
+.item4 .img img {
+    height: 100%;
+    width: 100%;
+}
+
+/* 视频播放容器 */
+.item4 .start-btn {
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    /* background-color: blanchedalmond; */
+    margin: auto;
+    margin-top: -136px;
+    /* position: relative; */
+}
+
+.item4 .start-btn img {
+    width: 100%;
+    height: 100%;
+}
+
+.item4 .video-wrapper {
+    width: 1200px;
+    height: 600px;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+    margin-left: 150px;
+    margin-top: 100px;
+}
+
+.item4 .inner-wrapper {
+    width: 1000px;
+    height: 500px;
+    border: 1px solid red;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+.inner-wrapper video {
+    height: 100%;
+    width: 100%;
+}
+
+.item4 .close-btn {
+    width: 70px;
+    height: 70px;
+    /* border: 5px solid blue; */
+    position: absolute;
+    right: 15px;
+    top: 3px;
+}
+
+.item4 .close-btn img {
+    height: 70px;
+    width: 70px;
+}
+/* 人物介绍背景 5*/
+.main .item5 {
+    height: 200px;
+    width: 100%;
+    background-image: url(/images/introduce/beijing2.jpg);
+    margin-top: 15px;
+    display: flex;
+}
+
+.itme5 .img {
+    height: 200px;
+    width: 200px;
+    border: 2px solid red;
+    position: absolute;
+}
+
+.item5 .img img {
+    height: 100%;
+    width: 100%;
+}
+
+.item5 .text {
+    height: 200px;
+    width: 900px;
+    border: 2px solid blue;
+}
+
+/* 视频播放容器 */
+.item5 .start-btn {
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    /* background-color: blanchedalmond; */
+    margin: auto;
+    margin-top: -130px;
+    /* position: relative; */
+}
+
+.item5 .start-btn img {
+    width: 100%;
+    height: 100%;
+}
+
+.item5 .video-wrapper {
+    width: 1200px;
+    height: 600px;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+    margin-left: 150px;
+    margin-top: 100px;
+}
+
+.item5 .inner-wrapper {
+    width: 1000px;
+    height: 500px;
+    border: 1px solid red;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+.inner-wrapper video {
+    height: 100%;
+    width: 100%;
+}
+
+.item5 .close-btn {
+    width: 70px;
+    height: 70px;
+    /* border: 5px solid blue; */
+    position: absolute;
+    right: 15px;
+    top: 3px;
+}
+
+.item5 .close-btn img {
+    height: 70px;
+    width: 70px;
+}
+/* 人物介绍背景 6*/
+.main .item6 {
+    height: 200px;
+    width: 100%;
+    background-image: url(/images/introduce/beijing2.jpg);
+    margin-top: 15px;
+    display: flex;
+}
+
+.item6 .text {
+    height: 200px;
+    width: 900px;
+    border: 2px solid blue;
+}
+.itme6 .img {
+    height: 200px;
+    width: 200px;
+    border: 2px solid red;
+    /* position: absolute; */
+}
+
+.item6 .img img {
+    height: 100%;
+    width: 100%;
+}
+
+/* 视频播放容器 */
+.item6 .start-btn {
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    /* background-color: blanchedalmond; */
+    margin: auto;
+    margin-top: -136px;
+    /* position: relative; */
+}
+
+.item6 .start-btn img {
+    width: 100%;
+    height: 100%;
+}
+
+.item6 .video-wrapper {
+    width: 1200px;
+    height: 600px;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+    margin-left: 150px;
+    margin-top: 100px;
+}
+
+.item6 .inner-wrapper {
+    width: 1000px;
+    height: 500px;
+    border: 1px solid red;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+.inner-wrapper video {
+    height: 100%;
+    width: 100%;
+}
+
+.item6 .close-btn {
+    width: 70px;
+    height: 70px;
+    /* border: 5px solid blue; */
+    position: absolute;
+    right: 15px;
+    top: 3px;
+}
+
+.item6 .close-btn img {
+    height: 70px;
+    width: 70px;
+}
+.main .title1{
+    width: 300px;
+    height: 36px;
+    /* background-color: rgb(99, 228, 187); */
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.main .title2{
+    width: 131px;
+    height: 40px;
+    /* background-color: pink; */
+    margin-left: 20px;
+}
+.main .title3{
+    width: 757px;
+    height: 110px;
+    /* background-color: beige; */
+    margin-left: 20px;
+}
+
+/* 第三部分 */
+.box{
+    width: 1407px;
+    height: 600px;
+    background-image: url(/images/introduce/beijing2.jpg);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.box1{
+    width: 150px;
+    height: 250px;
+    /* background-color: yellow; */
+    align-items: center;
+    margin: 20px;
+}
+.box .inner{
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.inner img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* 确保图片按比例缩放并覆盖整个小盒子 */
+    transition: all 0.3s linear;
+}
+.inner:hover img{
+    transform: scale(1.1);
+}
+.box1 .name{
+    width: 100px;
+    height: 50px;
+    /* border: 1px solid red; */
+    text-align: center;
+    font-size: 20px;
+    font-weight: bolder; 
+    margin: 0 auto;
+    padding-top: 15px;
+}
